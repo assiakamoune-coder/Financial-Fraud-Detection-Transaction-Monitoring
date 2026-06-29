@@ -42,7 +42,7 @@ The project follows an end-to-end data pipeline modeled after real-world complia
 
 **Data Pre-processing & Feature Engineering**: Drop non-predictive compliance metadata (Transaction_ID).
 
-One-Hot Encoding of categorical variables (Device types) to allow numerical model ingestion.
+**One-Hot Encoding** of categorical variables (Device types) to allow numerical model ingestion.
 
 **Stratified training split** to mirror real-world transaction distributions.
 
